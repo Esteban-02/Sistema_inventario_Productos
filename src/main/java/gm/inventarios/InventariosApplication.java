@@ -14,7 +14,7 @@ public class InventariosApplication {
 		Producto producto = new Producto();
 		producto.setDescripcion("Camisa M");
 		producto.setPrecio(600.0);
-		producto.setExistencias(50);
+		producto.setExistencia(50);
 
 		//Imprimir objeto
 		System.out.println(producto);

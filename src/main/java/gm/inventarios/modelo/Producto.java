@@ -10,8 +10,9 @@ import lombok.NoArgsConstructor;
 
 @Entity
 @Data
-@AllArgsConstructor
 @NoArgsConstructor
+@AllArgsConstructor
+
 public class Producto {
 
     @Id
@@ -19,5 +20,6 @@ public class Producto {
     Integer idProducto;
     String descripcion;
     Double precio;
-    Integer existencias;
+    Integer existencia;
+
 }
