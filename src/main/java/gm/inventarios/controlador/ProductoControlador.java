@@ -26,7 +26,7 @@ public class ProductoControlador {
     //Implementar los metodos
     @GetMapping("/productos")             //Recibe peticiones de tipo get a traves de la URL http://localhost:8080/inventario-app/productos
     public List<Producto> obtenerProductos(){
-        List<Producto> productos = this.productoServicio.listarProductos();
+        List<Producto> productos = this.productoServicio.listarProducto();
         logger.info("Productos obtenidos: ");
         productos.forEach(producto -> logger.info(producto.toString()));
         return productos;

@@ -12,23 +12,25 @@ public class ProductoServicio implements IProductoServicio{
 
     @Autowired
     private ProductoRepositorio productoRepositorio;
+
     @Override
-    public List<Producto> listarProductos() {
+    public List<Producto> listarProducto() {
         return productoRepositorio.findAll();
     }
 
     @Override
-    public Producto buscarProductoPorId(Integer idProducto) {
+    public Producto buscarProducto(int idProducto) {
         return productoRepositorio.findById(idProducto).orElse(null);
     }
 
     @Override
     public void guardarProducto(Producto producto) {
         productoRepositorio.save(producto);
+
     }
 
     @Override
-    public void eliminarProductoPorId(Integer idProducto) {
+    public void eliminarProducto(Integer idProducto) {
         productoRepositorio.deleteById(idProducto);
     }
 }
