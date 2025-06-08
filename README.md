@@ -34,6 +34,8 @@ Para hacer uso del este repositorio se debe clonar con este link => https://gith
 
 Se debe configurar la version de Java a la version 21 para evitar inconvenientes con las versiones mas recientes, recargar los paquetes y revisar los paquetes
 
+Para mirar todo el proyecto completo se debe descargar o clonar el repositorio del FrontEnd en este link en donde estan las instrucciones y anotaciones => https://github.com/Esteban-02/Sistema-Inventario-Frontend
+
 🔩 Configuracion
 
 
